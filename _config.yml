@@ -4,10 +4,12 @@
 permalink:           pretty
 
 # Setup
-title:               My Cluster
-tagline:             'A FYP project'
-description:         'Theme by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Welcome to My Cluster
+tagline:             'A Final Year Project'
+description:         'An experimental study of graph neural networks <br>
+Posts authored by: <a href= "https://www.linkedin.com/in/yao-yang-leow-2b8b77117/">Leow Yao Yang</a> <br>
+Supervised by: <a href= "http://www.ntu.edu.sg/home/xbresson/">Prof. Xavier Bresson</a>.'
+url:                 https://signapoop.github.io/
 baseurl:             ''
 paginate:            5
 
