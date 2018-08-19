@@ -4,10 +4,10 @@
 permalink:           pretty
 
 # Setup
-title:               Welcome to My Cluster
+title:               A Geometric Progression
 tagline:             'FYP 2018'
 description:         'This blog is dedicated to my Final Year Project titled, "An Experimental Study of Graph Neural Networks",
- under the supervision of <a href= "http://www.ntu.edu.sg/home/xbresson/">Prof. Xavier Bresson</a>. 
+ under the supervision of <a href= "http://www.ntu.edu.sg/home/xbresson/">Prof. Xavier Bresson</a>.
  All blog posts are authored by <a href= "https://www.linkedin.com/in/yao-yang-leow-2b8b77117/">Leow Yao Yang</a>.'
 url:                 https://signapoop.github.io/
 baseurl:             ''
