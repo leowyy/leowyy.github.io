@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: Templates
 ---
 
 
@@ -50,13 +50,13 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 ### Lists
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+Bullet list
 
 * Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 * Donec id elit non mi porta gravida at eget metus.
 * Nulla vitae elit libero, a pharetra augue.
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+Numbered list
 
 1. Vestibulum id ligula porta felis euismod semper.
 2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -114,6 +114,13 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
     </tr>
   </tbody>
 </table>
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
