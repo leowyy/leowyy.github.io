@@ -13,6 +13,17 @@ url:                 https://signapoop.github.io/
 baseurl:             ''
 paginate:            5
 
+defaults:
+ -
+   scope:
+     path: "_slides"  #__
+   values:
+     layout: "iframe"
+
+collections:
+ slides:
+   output: true
+     
 # About/contact
 author:
   name:              Yao Yang
