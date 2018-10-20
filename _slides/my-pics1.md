@@ -2,7 +2,7 @@
 layout: iframe
 title: My slideshow
 item: 1
-auto: false
+auto: true
 loop: true
 permalink: /slides/my-pics1.html
 ---
