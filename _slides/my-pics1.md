@@ -8,4 +8,4 @@ permalink: /slides/my-pics1.html
 ---
 
 * ![A nice pic of mine](my-pics1/fasttext_train.jpg)
-* ![Another nice pic of mine](my-pics1/fasttext_test.jpg)
+* ![Another nice pic of mine](my-pics1/fasttext_graph_net.jpg)
