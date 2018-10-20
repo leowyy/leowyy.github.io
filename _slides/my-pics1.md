@@ -5,7 +5,6 @@ item: 1
 auto: false
 loop: true
 adaptiveHeight: true
-
 permalink: /slides/my-pics1.html
 ---
 
@@ -15,7 +14,3 @@ permalink: /slides/my-pics1.html
 * ![Another nice pic of mine](my-pics1/pic4.jpg)
 * # A text slide
   This is a demo of the [Jekyll Gallery](http://lexoyo.me/jekyll-slideshow/).
-  
-  Pictures from [this album](https://unsplash.com/collections/curated/93) by [Ben Blumenfeld](http://designerfund.com).
-
-
