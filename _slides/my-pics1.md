@@ -2,8 +2,10 @@
 layout: iframe
 title: My slideshow
 item: 1
-auto: true
+auto: false
 loop: true
+adaptiveHeight: true
+
 permalink: /slides/my-pics1.html
 ---
 
