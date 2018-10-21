@@ -4,6 +4,7 @@ title: My slideshow
 item: 1
 auto: false
 loop: true
+adaptiveHeight: true
 permalink: /slides/my-pics1.html
 ---
 
