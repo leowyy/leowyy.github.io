@@ -24,7 +24,14 @@ title: 'Update #5'
 		}
 
 		.drift-demo-trigger {
-			width: 100%;
+			width: 44%;
+			float: left;
+		}
+
+		.detail {
+			position: relative;
+			width: 55%;
+			margin-left: 1%;
 			float: left;
 		}
 
@@ -39,6 +46,7 @@ title: 'Update #5'
 				width: auto;
 			}
 
+			.detail,
 			.drift-demo-trigger {
 				float: none;
 			}
@@ -47,6 +55,11 @@ title: 'Update #5'
 				max-width: 100%;
 				width: auto;
 				margin: 0 auto;
+			}
+
+			.detail {
+				margin: 0;
+				width: auto;
 			}
 
 			.drift-bounding-box {
@@ -65,6 +78,13 @@ style="width:100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></
 
 <div class="wrapper">
   <img class="drift-demo-trigger" data-zoom="{{ site.baseurl }}/public/update_5/train.png" src="{{ site.baseurl }}/public/update_5/train.png">
+  <div class="detail">
+    <section>
+      <h1>FastText</h1>
+      <p>Each vector is a word embedding computed in a word2vec model built by Facebook on Wikipedia text. The most common 4,000 English words were used. Stop-words were removed.</p>
+      <p>Hover the cursor over the image on the left to view a magnified version.</p>
+    </section>
+  </div>
 </div>
 
 <script src="{{ site.baseurl }}/js/Drift.js"></script>
