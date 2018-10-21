@@ -52,7 +52,7 @@ html {
   font-size: 14px;
   line-height: 1.5;
 }
-@media (min-width: 45em) {
+@media (min-width: 38em) {
   html {
     font-size: 20px;
   }
@@ -416,7 +416,7 @@ a.pagination-item:hover {
   }
   .pagination-item {
     float: left;
-    width: 80%;
+    width: 50%;
   }
   .pagination-item:first-child {
     margin-bottom: 0;
