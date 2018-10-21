@@ -5,6 +5,8 @@ item: 1
 auto: false
 loop: true
 keyPress: true
+prevHtml:'<img src="{{ site.baseurl }}/public/update_5/prev.png">'
+nextHtml:'<img src="{{ site.baseurl }}/public/update_5/prev.png">'
 permalink: /slides/my-pics1.html
 ---
 
