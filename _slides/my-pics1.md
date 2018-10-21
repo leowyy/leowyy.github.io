@@ -4,9 +4,6 @@ title: My slideshow
 item: 1
 auto: false
 loop: true
-keyPress: true
-prevHtml: '<img src="prev.png">'
-nextHtml: '<img src="next.png">'
 permalink: /slides/my-pics1.html
 ---
 
