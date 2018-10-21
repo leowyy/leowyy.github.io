@@ -21,9 +21,9 @@ style:
       left: -100%
 ---
 
-* ![A nice pic of mine](my-pics1/pic1.jpg)
-* ![Another nice pic of mine](my-pics1/pic2.jpg)
-* ![Another nice pic of mine](my-pics1/pic3.jpg)
-* ![Another nice pic of mine](my-pics1/pic4.jpg)
+* ![A nice pic of mine](fasttext/pic1.jpg)
+* ![Another nice pic of mine](fasttext/pic2.jpg)
+* ![Another nice pic of mine](fasttext/pic3.jpg)
+* ![Another nice pic of mine](fasttext/pic4.jpg)
 
 
