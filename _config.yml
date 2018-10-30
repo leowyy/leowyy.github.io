@@ -2,6 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+relative_permalinks: true
 
 # Setup
 title:               A Geometric Progression
@@ -23,7 +24,7 @@ defaults:
 collections:
  slides:
    output: true
-     
+
 # About/contact
 author:
   name:              Yao Yang
