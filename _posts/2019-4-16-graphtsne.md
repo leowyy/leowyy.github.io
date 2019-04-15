@@ -27,3 +27,8 @@ Let's consider a concrete dataset called the Cora citation network. In this netw
 <center>
 <img src="{{ site.baseurl }}/public/graphtsne/plots.png">
 </center>
+
+## GraphTSNE in action
+<center>
+<img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="600">
+</center>
