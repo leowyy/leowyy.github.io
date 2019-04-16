@@ -5,7 +5,7 @@ title: 'GraphTSNE'
 <figure>
 	<center>
 	    <img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="500">
-	    <figcaption>_GraphTSNE on the Cora Citation Network_</figcaption>
+	    <figcaption><b>GraphTSNE on the Cora Citation Network</b></figcaption>
     </center>
 </figure>
 
