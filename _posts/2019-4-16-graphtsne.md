@@ -2,7 +2,13 @@
 layout: post
 title: 'GraphTSNE'
 ---
-## Overview
+<figure>
+	<center>
+	    <img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="500">
+	    <figcaption>_GraphTSNE on the Cora Citation Network_</figcaption>
+    </center>
+</figure>
+
 In recent years, research interest in graph-structured data has surged, following the success of graph convolutional networks and graph representation learning. Because of this, it is increasingly important for researchers and practitioners alike to gain human insight into such datasets by means of visualization. In this post, we will discuss GraphTSNE, a novel visualization technique for graph-structured data. 
 
 ### What is graph-structured data?
@@ -32,14 +38,6 @@ By incorporating both graph connectivity and node features, the visualizations p
 <center>
 <img src="{{ site.baseurl }}/public/graphtsne/plots.png">
 </center>
-
-## GraphTSNE in action
-<figure>
-	<center>
-    <img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="500">
-    <figcaption>GraphTSNE on the Cora Citation Network</figcaption>
-    </center>
-</figure>
 
 ## Conclusion
 In this post, we have looked at GraphTSNE as a novel visualization technique for graph-structured data. We believe that this represents an important contribution in the direction of developing better visualization techniques dedicated to graph machine learning. This is also why we have assembled a suite of evaluation metrics from the literature that will allow for the quantitative assessment of future developments. 
