@@ -34,10 +34,10 @@ By incorporating both graph connectivity and node features, the visualizations p
 </center>
 
 ## GraphTSNE in action
-<center>
-<img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="500">
-</center>
-*Space* 
+<figure>
+    <img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="500">
+    <figcaption>GraphTSNE on the Cora Citation Network</figcaption>
+</figure>
 
 ## Conclusion
 In this post, we have looked at GraphTSNE as a novel visualization technique for graph-structured data. We believe that this represents an important contribution in the direction of developing better visualization techniques dedicated to graph machine learning. This is also why we have assembled a suite of evaluation metrics from the literature that will allow for the quantitative assessment of future developments. 
