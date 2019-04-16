@@ -9,7 +9,7 @@ title: 'GraphTSNE'
     </center>
 </figure>
 
-In recent years, research interest in graph-structured data has surged, following the success of graph convolutional networks and graph representation learning. Because of this, it is increasingly important for researchers and practitioners alike to gain human insight into such datasets by means of visualization. In this post, we will discuss GraphTSNE, a novel visualization technique for graph-structured data. 
+In recent years, research interest in graph-structured data has surged, following the success of graph convolutional networks and graph representation learning. Because of this, it is increasingly important for researchers and practitioners alike to gain human insight into such datasets by means of visualization. In this post, we will discuss GraphTSNE: a novel visualization technique for graph-structured data. 
 
 ### What is graph-structured data?
 In this post, we will consider graph-structured datasets with two sources of information: graph connectivity between nodes and data features on nodes. Real-world examples of such datasets are abundant: just think social networks, functional brain networks and gene-regulatory networks, among many others. 
