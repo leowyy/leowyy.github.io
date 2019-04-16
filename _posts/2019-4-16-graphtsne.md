@@ -35,8 +35,10 @@ By incorporating both graph connectivity and node features, the visualizations p
 
 ## GraphTSNE in action
 <figure>
+	<center>
     <img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="500">
     <figcaption>GraphTSNE on the Cora Citation Network</figcaption>
+    </center>
 </figure>
 
 ## Conclusion
