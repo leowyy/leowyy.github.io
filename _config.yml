@@ -11,7 +11,7 @@ description:         'This blog is dedicated to my Final Year Project titled, "A
  All blog posts are authored by <a href= "https://www.linkedin.com/in/yao-yang-leow-2b8b77117/">Leow Yao Yang</a>.'
 url:                 https://signapoop.github.io/
 baseurl:             ''
-paginate:            5
+paginate:            1
 
 defaults:
  -
