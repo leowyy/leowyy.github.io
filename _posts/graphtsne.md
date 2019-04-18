@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'GraphTSNE'
+date: '16 Apr 2019'
 ---
 <figure>
 	<center>
