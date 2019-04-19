@@ -57,6 +57,3 @@ If you are interested to use GraphTSNE, check out our code on GitHub: [https://g
   year={2019}
 }
 ``` 
-| Center-aligned |
-|     :---:      |
-| git status     |
