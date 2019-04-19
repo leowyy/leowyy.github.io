@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 'GraphTSNE'
-date: '16 Apr 2019'
 ---
 <!-- <figure>
 	<center>
@@ -9,6 +8,7 @@ date: '16 Apr 2019'
 	    <figcaption><b>GraphTSNE on the Cora Citation Network</b></figcaption>
     </center>
 </figure> -->
+
 | <center><img src="{{ site.baseurl }}/public/graphtsne/graphtsne.gif" width="500"></center> |
 |     :---:      |
 | *GraphTSNE on the Cora Citation Network*     |
@@ -25,6 +25,7 @@ In contrast to the more general problem of dimensionality reduction, visualizati
 In the literature on dimensionality reduction, we may consider two general approaches to visualizing graph-structured data. First, we can construct a visualization based on the feature similarity between nodes using the highly successful technique of t-SNE ([van der Maaten & Hinton](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf), 2008). Second, we can visualize the graph structure directly with a standard graph visualization technique like Laplacian Eigenmaps ([Belkin & Niyogi](https://papers.nips.cc/paper/1961-laplacian-eigenmaps-and-spectral-techniques-for-embedding-and-clustering.pdf), 2001). 
 
 Roughly speaking, the common objective in visualization is to obtain a low-dimensional representation that maximally preserves the _local structure_ of the original data, which could be in terms of pairwise feature distances _and/or_ graph distances. However, both approaches are unsatisfactory because they cannot incorporate information from _both_ node features and graph structure. This is why we have designed GraphTSNE to fill this gap. 
+
 | <center><img src="{{ site.baseurl }}/public/graphtsne/spectrum.png"></center> |
 |     :---:      |
 | *GraphTSNE produces visulizations which account for both node features and graph structure.*     |
@@ -40,6 +41,7 @@ Let's consider a concrete benchmark dataset called the [Cora citation network](h
 To understand the different contributions of the graph structure and node features, we can vary the extent of graph clustering with the $$\alpha$$ hyperparameter in our composite loss. At $$\alpha=0$$, our method reverts to pure feature clustering as in classical t-SNE.  Whereas, at $$\alpha=1$$, our method performs pure graph clustering, similar to tsNET ([Kruiger et al.](http://www.cs.rug.nl/~alext/PAPERS/EuroVis17/paper.pdf), 2017). Unlike spectral methods like Laplacian Eigenmaps, tsNET is more closely related to a popular class of graph layout algorithms called force-directed graph drawing ([Fruchterman & Reingold](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.13.8444&rep=rep1&type=pdf), 1991). In our paper, we propose a reasonable way (though certainly not the _only_ way) of determining a desirable value for $$\alpha$$ based on visualization distance metrics. 
 
 By incorporating both graph connectivity and node features, the visualizations produced with intermediate values of $$\alpha$$ achieve better separation between classes and therefore, higher 1-NN generalization accuracy. This phenomenon has been well-studied in the context of semi-supervised classification ([Yang et al.](https://arxiv.org/abs/1603.08861), 2016; [Kipf & Welling](https://arxiv.org/abs/1609.02907), 2016; [Velickovic et al.](https://arxiv.org/abs/1710.10903), 2018) and unsupervised representation learning ([Hamilton et al.](https://arxiv.org/abs/1706.02216), 2017; [Velickovic et al.](https://arxiv.org/abs/1809.10341), 2019). At the proposed value of $$\alpha$$, we demonstrate both _quantitatively_ and _qualitatively_ that GraphTSNE outperforms existing visualization techniques.
+
 | <center><img src="{{ site.baseurl }}/public/graphtsne/plots.png"></center> |
 |     :---:      |
 | *At the proposed value of $$\alpha=0.4$$, GraphTSNE produces a visualization which reflects the overall graph structure of the data and provides better separation between document classes.*     |
