@@ -16,7 +16,7 @@ title: 'GraphTSNE'
 In recent years, interest in graph-structured data has surged, following the success of graph convolutional networks and graph representation learning. Because of this, it is increasingly important for researchers and practitioners alike to gain human insight into such datasets by means of visualization. In this post, we will discuss GraphTSNE: a novel visualization technique for graph-structured data. 
 
 ### What is graph-structured data?
-In particular, we will consider graph-structured datasets with two sources of information: graph connectivity between nodes and data features on nodes. Real-world examples of such datasets are _abundant_. Just think social networks, functional brain networks and gene-regulatory networks, among many others. 
+Graph-structured data consists of datasets with two sources of information: graph connectivity between nodes and data features on nodes. In other words, they comprise data features lying within an explicit graph structure. Real-world examples of such datasets are _abundant_. Just think social networks, functional brain networks and gene-regulatory networks, among many others. 
 
 ### Why visualization?
 In contrast to the more general problem of dimensionality reduction, visualizations can be particularly useful as a tool to explore and hypothesize about given data. By placing high-dimensional data in a low-dimensional map (in 2D or 3D), such visualizations can often reveal _interesting structure_ within the data that would otherwise be inscrutable. 
@@ -28,7 +28,7 @@ Roughly speaking, the common objective in visualization is to obtain a low-dimen
 
 | <center><img src="{{ site.baseurl }}/public/graphtsne/spectrum.png"></center> |
 |     :---:      |
-| *GraphTSNE produces visulizations which account for both node features and graph structure.*     |
+| *GraphTSNE produces visualizations which account for both node features and graph structure.*     |
 
 ## Method
 GraphTSNE relies on two modifications to a _parametric_ version of t-SNE proposed by [van der Maaten](http://proceedings.mlr.press/v5/maaten09a.html) (2009). First, we use a graph convolutional network (GCN) ([Sukhbaatar et al.](https://arxiv.org/abs/1605.07736), 2016; [Kipf & Welling](https://arxiv.org/abs/1609.02907), 2016; [Hamilton et al.](https://arxiv.org/abs/1706.02216), 2017) as the parametric model for the non-linear mapping between the high-dimensional data space and the low-dimensional embedding space, i.e. $$\mathbb{Y}=f_{\text{GCN}}(\mathcal{G},\mathbb{X})$$. By stacking multiple graph convolutional layers, GCNs learn node representations by aggregating information from distant neighbors in the graph. In particular, our present work uses a two-layer residual gated GCN of [Bresson & Laurent](https://openreview.net/pdf?id=SJexcZc8G) (2018).
