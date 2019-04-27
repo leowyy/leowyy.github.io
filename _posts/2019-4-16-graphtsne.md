@@ -57,7 +57,9 @@ If you are interested to use GraphTSNE, check out our code on GitHub: [https://g
 @inproceedings{leow19GraphTSNE,
   title={GraphTSNE: A Visualization Technique for Graph-Structured Data},
   author={Leow, Yao Yang and Laurent, Thomas and Bresson, Xavier},
-  booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds},
+  booktitle={
+    ICLR Workshop on Representation Learning on Graphs and Manifolds
+  },
   year={2019}
 }
 ``` 
