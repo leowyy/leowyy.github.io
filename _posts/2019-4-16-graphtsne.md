@@ -13,7 +13,7 @@ title: 'GraphTSNE'
 |     :---:      |
 | *GraphTSNE on the Cora Citation Network*     |
 
-In recent years, interest in graph-structured data has surged, following the success of graph convolutional networks and graph representation learning. Because of this, it is increasingly important for researchers and practitioners alike to gain human insight into such datasets by means of visualization. In this post, we will discuss GraphTSNE: a novel visualization technique for graph-structured data. 
+In recent years, interest in graph-structured data has surged, following the success of graph convolutional networks and graph representation learning. Because of this, it is increasingly important for researchers and practitioners alike to gain human insight into such datasets by means of visualization. In this post, we will discuss __GraphTSNE: a novel visualization technique for graph-structured data__. 
 
 ### What is graph-structured data?
 Graph-structured data consists of datasets with two sources of information: graph connectivity between nodes and data features on nodes. In other words, they comprise data features lying within an explicit graph structure. Real-world examples of such datasets are _abundant_. Just think social networks, functional brain networks and gene-regulatory networks, among many others. 
@@ -54,10 +54,10 @@ Our method is based on scalable and unsupervised training of a graph convolution
 ### Code and Paper 
 If you are interested to use GraphTSNE, check out our code on GitHub: [https://github.com/leowyy/GraphTSNE](https://github.com/leowyy/GraphTSNE). Also, if you use GraphTSNE in your work, we welcome you to cite our ICLR'19 workshop [paper](https://arxiv.org/abs/1904.06915): <br>
 ```
-@article{leow2019GraphTSNE,
+@inproceedings{leow19GraphTSNE,
   title={GraphTSNE: A Visualization Technique for Graph-Structured Data},
   author={Leow, Yao Yang and Laurent, Thomas and Bresson, Xavier},
-  journal={arXiv preprint arXiv:1904.06915},
+  booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds},
   year={2019}
 }
 ``` 
