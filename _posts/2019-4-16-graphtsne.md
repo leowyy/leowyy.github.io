@@ -52,7 +52,7 @@ In this post, we have looked at GraphTSNE as a novel visualization technique for
 Our method is based on scalable and unsupervised training of a graph convolutional network, which is the key mechanism for naturally incorporating information from both graph connectivity and node features. Moving forward, we hope to explore the use of GraphTSNE as an _inductive_ visualization technique that will enable its use on larger and time-evolving datasets.
 
 ### Code and Paper 
-If you are interested to use GraphTSNE, check out our code on GitHub: [https://github.com/leowyy/GraphTSNE](https://github.com/leowyy/GraphTSNE). Also, if you use GraphTSNE in your work, we welcome you to cite our ICLR'19 workshop [paper](https://arxiv.org/abs/1904.06915): <br>
+If you are interested to use GraphTSNE, check out our code on [GitHub](https://github.com/leowyy/GraphTSNE). Also, if you use GraphTSNE in your work, we welcome you to cite our ICLR'19 workshop [paper](https://arxiv.org/abs/1904.06915): <br>
 ```
 @inproceedings{leow19GraphTSNE,
   title={GraphTSNE: A Visualization Technique for Graph-Structured Data},
