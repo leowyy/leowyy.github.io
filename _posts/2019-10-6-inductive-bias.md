@@ -22,17 +22,14 @@ However, too much innate structure can actually worsen performance, because it c
 ### Inductive biases in machine learning
 Every machine learning algorithm has an inductive bias, albeit to varying extents. Every inductive bias constitutes a set of assumptions that require verification. Here are some examples. 
 
-| Model | Inductive Bias / Assumption |
+| Model / Optimisation | Inductive Bias / Assumption |
 | :--- | :--- |
 | Linear regression | Output variable depends linearly on the inputs |
 | SVM | Maximum margin |
-| Convolutional neural networks | Translational invariance <br>Local relations between inputs |
-| RNN / Attention | Long range dependencies <br> Sequential relations between inputs |
-| Graph convolutional networks | Homophily <br> Structural equivalence |
+| Convolutional neural networks | Translational invariance <br>Local relations between inputs |
+| RNN / Attention | Long range dependencies <br>Sequential relations between inputs |
+| Graph convolutional networks | Homophily <br>Structural equivalence |
 | Deep learning | Distributed representations |
-
-| Optimisation | Inductive Bias / Assumption |
-| :--- | :--- |
 | Regularisation | Regularity / smoothness of a function as measured by a certain function space norm |
 | Bidirectionality | Left and right contextual information |
 | Multitask learning | Prefer hypothesis that explain more than one task |
@@ -42,7 +39,7 @@ Even though inductive biases are widely used in the machine learning, there is g
 incorporating into our learning algorithms. Love them or hate them, inductive biases continue to guide many important research directions. 
 
 #### ML theory through the lens of inductive bias 
-1. Inductive bias of deep convolutional networks through pooling geometry. Cohen & Shashua. ICLR, 2017.
+1. Inductive bias of deep convolutional networks through pooling geometry. Cohen & Shashua. *ICLR*, 2017.
 
 #### Novel forms of inductive bias
 1. Attention is all you need. Vaswani et al. *NeurIPS*, 2017. 
