@@ -11,6 +11,10 @@ These assumptions which are necessary for generalisation are called inductive bi
  .edu/~tom/pubs/NeedForBias_1980.pdf), 1980).
 
 ### Choice of inductive bias: Strong vs Weak?
+| <center><img src="{{ site.baseurl }}/public/inductive/strong.png"></center> | <center><img src="{{ site.baseurl }}/public/inductive/weak.png"></center> |
+|     :---:      |     :---:      |
+| *Feature extraction in computer vision tasks.*     | *AlexNet - an instance of a convolutional neural network. Features are not innate, but learned from data.* | 
+
 Inductive biases come in different flavours: strong vs weak, right vs wrong. While we always want to pick a right inductive bias, the choice between a strong and weak bias is not as clear. 
 
 In classical statistical thinking, a strong inductive bias restricts the hypothesis set, thereby improving generalisation and increasing 
@@ -38,16 +42,16 @@ Every machine learning algorithm has an inductive bias, albeit to varying extent
 Even though inductive biases are widely used in the machine learning, there is great debate about the *amount* we ought to be 
 incorporating into our learning algorithms. Love them or hate them, inductive biases continue to guide many important research directions. 
 
-#### ML theory through the lens of inductive bias 
+**ML theory through the lens of inductive bias** <br>
 1. Inductive bias of deep convolutional networks through pooling geometry. Cohen & Shashua. *ICLR*, 2017.
 
-#### Novel forms of inductive bias
+**Novel forms of inductive bias** <br>
 1. Attention is all you need. Vaswani et al. *NeurIPS*, 2017. 
 2. Semi-supervised classification with graph convolutional networks. Kipf & Welling. *ICLR*, 2017. 
 3. Recursive deep models for semantic compositionality over a sentiment treebank. Socher et al. *EMNLP*, 2013. 
 4. Long short-term memory. Hochreiter & Schmidhuber. *Neural Computation*, 1997.  
 
-#### Injection of inductive bias
+**Injection of inductive bias** <br>
 1. Weight agnostic neural networks. Gaier & Ha. *NeurIPS*, 2019.
 2. Neural relational inference for interacting systems. Kipf et al. *ICML*, 2018.
 3. Deep reinforcement learning with relational inductive biases. Battaglia et al. *ICLR*, 2019.
