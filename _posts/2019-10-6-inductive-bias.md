@@ -11,9 +11,10 @@ These assumptions which are necessary for generalisation are called inductive bi
  .edu/~tom/pubs/NeedForBias_1980.pdf), 1980).
 
 ### Choice of inductive bias: Strong vs Weak?
-| <center><img src="{{ site.baseurl }}/public/inductive/strong.png"></center> | <center><img src="{{ site.baseurl }}/public/inductive/weak.png"></center> |
-|     :---:      |     :---:      |
-| *Feature extraction in computer vision tasks.*     | *AlexNet - an instance of a convolutional neural network. Features are not innate, but learned from data.* | 
+
+| <center><img src="{{ site.baseurl }}/public/inductive/strong.png"></center> |
+|     :---:      |
+|     *Feature extraction in computer vision tasks.*     |
 
 Inductive biases come in different flavours: strong vs weak, right vs wrong. While we always want to pick a right inductive bias, the choice between a strong and weak bias is not as clear. 
 
