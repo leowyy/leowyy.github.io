@@ -28,6 +28,15 @@ However, too much innate structure can actually worsen performance, because it c
 ### Inductive biases in machine learning
 Every machine learning algorithm has an inductive bias, albeit to varying extents. Every inductive bias constitutes a set of assumptions that require verification. Here are some examples. 
 
+| Model | Inductive Bias / Assumption |
+| --- | --- |
+| Linear regression | Output variable depends linearly on the inputs |
+| SVM | Maximum margin |
+| Convolutional neural networks | Translational invariance <br>Local relations between inputs |
+| RNN / Attention | Long range dependencies <br> Sequential relations between inputs |
+| Graph convolutional networks | Homophily <br> Structural equivalence |
+| Deep learning | Distributed representations |
+
 ### Research Directions
 Even though inductive biases are widely used in the machine learning, there is great debate about the *amount* we ought to be 
 incorporating into our learning algorithms. Love them or hate them, inductive biases continue to guide many important research directions. 
