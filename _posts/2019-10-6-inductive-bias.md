@@ -41,16 +41,7 @@ Every machine learning algorithm has an inductive bias, albeit to varying extent
 
 ### Research Directions
 Even though inductive biases are widely used in the machine learning, there is great debate about the *amount* we ought to be 
-incorporating into our learning algorithms. (See the excellent debate from 2018 between Yann LeCun and Chris Manning on innate priors 
-[link].
-(https://leowyy
-.github.io/)). Love 
-them or hate them, 
-inductive biases 
-continue to guide many 
-important 
-research 
-directions. 
+incorporating into our learning algorithms (See [LeCun & Manning](https://www.youtube.com/watch?v=fKk9KhGRBdI) on the topic of innate priors). Love them or hate them, inductive biases continue to guide many important research directions.
 
 **ML theory through the lens of inductive bias** <br>
 1. Inductive bias of deep convolutional networks through pooling geometry. Cohen & Shashua. *ICLR*, 2017.
