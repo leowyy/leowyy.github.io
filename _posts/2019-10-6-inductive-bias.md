@@ -5,22 +5,17 @@ title: 'Inductive Biases'
 ### What is an inductive bias?
 The goal of supervised machine learning is generalisation, i.e. achieving low out-of-sample error by learning on a set of training data. When the out-of-sample data is drawn from the same distribution as the training data, this is called interpolation. 
 
-In everyday life, we hold certain inductive beliefs (eg spatial/temporal smoothness) so that we can infer hypotheses about the future based
- on past observations. 
-These assumptions which are necessary for generalisation are called inductive biases ([Mitchell](https://www.cs.cmu
- .edu/~tom/pubs/NeedForBias_1980.pdf), 1980).
+In everyday life, we hold certain inductive beliefs (eg spatial/temporal smoothness) so that we can infer hypotheses about the future based on past observations. These assumptions which are necessary for generalisation are called inductive biases ([Mitchell](https://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf), 1980).
 
 ### Choice of inductive bias: Strong vs Weak?
 
 | <center><img src="{{ site.baseurl }}/public/inductive/strong.png"></center> | <center><img src="{{ site.baseurl }}/public/inductive/weak.png"></center> |
 |     :---:      |     :---:      |
-|     *Explicit feature extraction in computer vision tasks.*     |     *A convolutional neural network. Feature extraction are not innate, but learned from data.*     |
+|     *Strong bias: Explicit feature extraction in computer vision tasks.*     |     *Weak bias: A convolutional neural network. Feature extraction is not innate, but learned from data.*     |
 
 Inductive biases come in different flavours: strong vs weak, right vs wrong. While we always want to pick a right inductive bias, the choice between a strong and weak bias is not as clear. 
 
-In classical statistical thinking, a strong inductive bias restricts the hypothesis set, thereby improving generalisation and increasing 
-sample efficiency. This makes it tempting to introduce strong inductive biases, usually by encoding prior domain knowledge into the 
-innate machinery of the learning process. 
+In classical statistical thinking, a strong inductive bias restricts the hypothesis set of function approximators, thereby improving generalisation and increasing sample efficiency. This makes it tempting to introduce strong inductive biases, usually by encoding prior domain knowledge into the innate machinery of the learning process. 
 
 However, too much innate structure can actually worsen performance, because it could introduce assumptions that might not be true of real-world and noisy data. For this reason, much of modern machine learning has been transitioned away from the traditional paradigms of rule-based learning and feature extraction.
 
@@ -36,12 +31,11 @@ Every machine learning algorithm has an inductive bias, albeit to varying extent
 | Graph convolutional networks | Homophily <br>Structural equivalence |
 | Deep learning | Distributed representations |
 | Regularisation | Regularity / smoothness of a function as measured by a certain function space norm |
-| Bidirectionality | Left and right contextual information |
-| Multitask learning | Prefer hypothesis that explain more than one task |
+| Bidirectionality | Importance of left and right context |
+| Multitask learning | Preference for hypotheses that explain more than one task |
 
 ### Research Directions
-Even though inductive biases are widely used in the machine learning, there is great debate about the *amount* we ought to be 
-incorporating into our learning algorithms (See [LeCun & Manning](https://www.youtube.com/watch?v=fKk9KhGRBdI) on the topic of innate priors). Love them or hate them, inductive biases continue to guide many important research directions.
+Even though inductive biases are widely used in the machine learning, there is great debate about the *amount* we ought to be incorporating into our learning algorithms ([LeCun & Manning](https://www.youtube.com/watch?v=fKk9KhGRBdI) on the topic of innate priors). Love them or hate them, inductive biases continue to guide many important research directions.
 
 **ML theory through the lens of inductive bias** <br>
 1. Inductive bias of deep convolutional networks through pooling geometry. Cohen & Shashua. *ICLR*, 2017.
