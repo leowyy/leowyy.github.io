@@ -14,7 +14,7 @@ These assumptions which are necessary for generalisation are called inductive bi
 
 | <center><img src="{{ site.baseurl }}/public/inductive/sstrong.png"></center> | <center><img src="{{ site.baseurl }}/public/inductive/weak.png"></center> |
 |     :---:      |     :---:      |
-|     *Explicit feature extractors in computer vision tasks.*     |     *A convolutional neural network. Feature extraction are not innate, but learned from data.*     |
+|     *Explicit feature extraction in computer vision tasks.*     |     *A convolutional neural network. Feature extraction are not innate, but learned from data.*     |
 
 Inductive biases come in different flavours: strong vs weak, right vs wrong. While we always want to pick a right inductive bias, the choice between a strong and weak bias is not as clear. 
 
@@ -41,7 +41,16 @@ Every machine learning algorithm has an inductive bias, albeit to varying extent
 
 ### Research Directions
 Even though inductive biases are widely used in the machine learning, there is great debate about the *amount* we ought to be 
-incorporating into our learning algorithms. Love them or hate them, inductive biases continue to guide many important research directions. 
+incorporating into our learning algorithms. (See the excellent debate from 2018 between Yann LeCun and Chris Manning on innate priors 
+[link].
+(https://leowyy
+.github.io/)). Love 
+them or hate them, 
+inductive biases 
+continue to guide many 
+important 
+research 
+directions. 
 
 **ML theory through the lens of inductive bias** <br>
 1. Inductive bias of deep convolutional networks through pooling geometry. Cohen & Shashua. *ICLR*, 2017.
