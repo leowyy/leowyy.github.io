@@ -12,9 +12,9 @@ These assumptions which are necessary for generalisation are called inductive bi
 
 ### Choice of inductive bias: Strong vs Weak?
 
-| <center><img src="{{ site.baseurl }}/public/inductive/strong.png"></center> |
-|     :---:      |
-|     *Feature extraction in computer vision tasks.*     |
+| <center><img src="{{ site.baseurl }}/public/inductive/strong.png"></center> | <center><img src="{{ site.baseurl }}/public/inductive/weak.png"></center> |
+|     :---:      |     :---:      |
+|     *Explicit feature extractors in computer vision tasks.*     |     *A convolutional neural network. Feature extraction are not innate, but learned from data.*     |
 
 Inductive biases come in different flavours: strong vs weak, right vs wrong. While we always want to pick a right inductive bias, the choice between a strong and weak bias is not as clear. 
 
