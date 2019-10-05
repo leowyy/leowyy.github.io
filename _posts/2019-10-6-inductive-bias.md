@@ -12,7 +12,11 @@ P1: All of the swans we have seen are white.
 
 C: We *expect* the next swan to be white. 
 
-Do you agree with the structure of this argument? Ok, perhaps you are dissatisfied with the omission of actual numerical values (how many swans did we actually see?). But the argumentative structure is based on a commonly shared and intuitive belief that the world is largely uniform. We hold these beliefs so that we can infer hypotheses about the future based on past observations. These assumptions which are necessary for generalisation to happen are called inductive biases.
+Do you agree with the structure of this argument? Ok, perhaps you are dissatisfied with the omission of actual numerical values (how many
+ swans did we actually see?). But the argumentative structure is based on a commonly shared and intuitive belief that the world is 
+ largely uniform. We hold these beliefs so that we can infer hypotheses about the future based on past observations. These assumptions 
+ which are necessary for generalisation to happen are called inductive biases [Mitchell, 1980](https://www.cs.cmu
+ .edu/~tom/pubs/NeedForBias_1980.pdf).
 
 ### Choice of inductive bias: Strong vs Weak?
 Inductive biases come in different flavours: strong vs weak, right vs wrong. While we always want to pick a right inductive bias, the choice between a strong and weak bias is not as clear. 
