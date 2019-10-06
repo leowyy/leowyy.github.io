@@ -3,9 +3,9 @@ layout: post
 title: 'Inductive Biases'
 ---
 ### What is an inductive bias?
-The goal of supervised machine learning is generalisation, i.e. achieving low out-of-sample error by learning on a set of training data. When the out-of-sample data is drawn from the same distribution as the training data, this is called interpolation. 
+In everyday life, we hold certain inductive beliefs (eg spatial/temporal smoothness) so that we can infer hypotheses about the future based on past observations. These assumptions necessary for generalisation are called inductive biases ([Mitchell](https://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf), 1980).
 
-In everyday life, we hold certain inductive beliefs (eg spatial/temporal smoothness) so that we can infer hypotheses about the future based on past observations. These assumptions which are necessary for generalisation are called inductive biases ([Mitchell](https://www.cs.cmu.edu/~tom/pubs/NeedForBias_1980.pdf), 1980).
+Generalisation is the goal of supervised machine learning, i.e. achieving low out-of-sample error by learning on a set of training data. When the out-of-sample data is drawn from the same distribution as the training data, this is called interpolation. Hence, it is not surprising that inductive biases play a large role in machine learning.
 
 ### Choice of inductive bias: Strong vs Weak?
 
